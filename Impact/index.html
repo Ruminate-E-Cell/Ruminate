@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+
+
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+            'use strict';
+            $('body').backstretch([
+                "images/bg/bg1.jpg",
+            ], {
+                duration: 5000,
+                fade: 500,
+                centeredY: true
+            });
+
+            $("#mapwrapper").gMap({
+                controls: false,
+                scrollwheel: false,
+                markers: [{
+                    latitude: 40.7566,
+                    longitude: -73.9863,
+                    icon: {
+                        image: "images/marker.png",
+                        iconsize: [44, 44],
+                        iconanchor: [12, 46],
+                        infowindowanchor: [12, 0]
+                    }
+                }],
+                icon: {
+                    image: "images/marker.png",
+                    iconsize: [26, 46],
+                    iconanchor: [12, 46],
+                    infowindowanchor: [12, 0]
+                },
+                latitude: 40.7566,
+                longitude: -73.9863,
+                zoom: 14
+            });
+        });
+    </script>
+</head>
+
+
+<!--/header-->
+
+<body>
+    <div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1><img src="./images/Ruminate Logo trans-03.png" style="width: 200px; height: 50px;"/></h1>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#portfolio">Events</a></li>
+                    <li><a href="#teams">Team</a></li>
+                    <!-- <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li> -->
+                    <!-- <li><a href="#gototop">Contact</a></li> -->
+                    <!-- <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="project-item.html">Project Single</a></li>
+                            <li><a href="blog-item.html">Blog Single</a></li>
+                            <li class="active"><a href="404.html">404</a></li>
+                        </ul>
+                    </li>
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li> -->
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--/header-->
+
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    <!-- <h2><img src="./images/Ruminate Logo trans-03.png" /></h2> -->
+                                    <h2 class="boxed animation animated-item-1 fade-down" style="font-size: 6rem;"><img
+                                            src="./images/Ruminate Logo png-04.png"
+                                            style="width: 400px; height: auto"></h2>
+                                    <h2 class="boxed animation animated-item-1 fade-down" style="font-size: 6rem;">THE
+                                        ENTREPRENEURSHIP CELL</h2>
+                                    <br>
+                                    <p class="boxed animation animated-item-2 fade-up" style="font-size: 3rem;">Indian
+                                        Institute of Information
+                                        Technology, Surat</p>
+                                    <br>
+                                    <!-- <a class="btn btn-md animation bounce-in" href="#services">Learn More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+            </div>
+            <!--/.carousel-inner-->
+        </div>
+        <!--/.carousel-->
+    </section>
+    <!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <section id="about-us" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">A Little About Us</h2>
+                            <hr>
+                            <p>The secret of getting ahead is getting started.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 fade-up">
+                        <p style="text-align: center;font-size: larger; font-weight: 600;">Vision</p><br>
+                        <p>Entrepreneurship is the fuel that boosts the rocket of ideas and lands them on the practical
+                            world. It will not only contribute to the development of India but also help raise the
+                            quality of life in the country.
+                            With this belief The Entrepreneurship Cell, IIIT Surat aims to inculcate and nurture the raw
+                            ideas and skills of the students, willing to convert their ideas into product and to emerge
+                            as a leading entrepreneur which will benefit the nation as a whole and leads to India's
+                            global development.
+                        </p>
+                        <br>
+                        <p style="text-align: center;font-size: larger; font-weight: 600;">Mission</p><br>
+                        <p>Our mission is to unlock the latent innovative and inventive potential of the students by
+                            creating a pathway of various opportunities like orientation, interactive sessions with
+                            professionals, product development guidance, industrial and field contacts and the
+                            competitions to increase entrepreneurial skills. This will not only foster entrepreneurial
+                            thinking but also instill confidence in every student to convert their creativity into
+                            product to make people life easier and help grow India faster.</p>
+                    </div>
+                    <div class="col-md-4 fade-up">
+
+                    </div>
+                </div>
+                <div class="gap"></div>
+                <div class="gap"></div>
+
+
+                <div class="gap"></div>
+                <div class="gap"></div>
+            </div>
+        </section>
+
+        <section id="stats" class="divider-section">
+            <div class="gap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
+                            <h1><span class="counter">700</span>+</h1>
+                            <h3>NEC Finalist among teams</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
+                            <h1><span class="counter">3</span></h1>
+                            <h3>Startups</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
+                            <h1><span class="counter">20</span>+</h1>
+                            <h3>Dedicated Team</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
+                            <h1><span class="counter">10</span>+</h1>
+                            <h3>Companies in Contact</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+        </section>
+
+        <section id="portfolio" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                <div class="center gap fade-down section-heading">
+                    <h2 class="main-title">Examples Of Excellence</h2>
+                    <hr>
+                    <p>People never learn anything by being told, they have to find out for themselves.<br>Achievements
+                        below</p>
+                </div>
+                <!-- <ul class="portfolio-filter fade-down center">
+                    <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
+                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Apps</a></li>
+                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Nature</a></li>
+                    <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">Design</a></li>
+                </ul> -->
+                <!--/#portfolio-filter-->
+
+                <ul class="portfolio-items col-1 isotope fade-up">
+                    <li class="portfolio-item apps isotope-item">
+                        <div class="item-inner">
+                            <img src="images/portfolio/nec.jpeg" alt="">
+                            <h5>NEC Finalist</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="./images/portfolio/nec.jpeg"
+                                    rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="portfolio-items col-2 isotope fade-up">
+                    <li class="portfolio-item apps isotope-item" >
+                        <div class="item-inner">
+                            <img src="images/portfolio/vysion.jpeg" alt="Vysion Tech">
+                            <h5>Vysion Technologies</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="./images/portfolio/vysion.jpeg"
+                                    rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <li class="portfolio-item joomla nature isotope-item">
+                        <div class="item-inner">
+                            <img id="kasper" src="images/portfolio/kasper.jpg" style="padding-left: 140px;" alt="kaspertech">
+                            <h5></h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="./images/portfolio/kasper.jpg"
+                                    rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--/.portfolio-item-->
+                    <!--/.portfolio-item-->
+                </ul>
+            </div>
+        </section>
+
+        <section id="testimonial-carousel" class="divider-section">
+            <div class="gap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="center gap fade-down section-heading">
+                        <h2 class="main-title">Upcoming Events</h2>
+                        <hr>
+                        <p>Never stop dreaming, never stop believing, never give up, never stop trying, and never stop
+                            learning.</p>
+                        <div class="gap"></div>
+                    </div>
+                    <div class='col-md-offset-2 col-md-8 fade-up'>
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#quote-carousel" data-slide-to="1"></li>
+                                <li data-target="#quote-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner">
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-3 text-center">
+                                                <img class="img-responsive" src="./images/portfolio/puneet.jpg"
+                                                    style="width: 100px;height:100px;">
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <p>Founder at BugClipper, Mobile and Front End Developer located at
+                                                    Mumbai</p>
+                                                <small>Puneet Sharma</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-3 text-center">
+                                                <img class="img-responsive" src="./images/portfolio/director-img.jpg"
+                                                    style="width: 100px;height:100px;">
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <p>Ruminate has the potential to carry forward different Ideas.</p>
+                                                <small>Prof. J.S. Bhatt, Director IIIT Surat</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-3 text-center">
+                                                <img class="img-responsive" src="./images/portfolio/folio08.jpg"
+                                                    style="width: 100px;height:100px;">
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <p>Stay tuned for upcoming events</p>
+                                                <small>Follow us</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="read-more-wrapper">
+                                <a href="#" class="btn btn-outlined btn-primary">Register Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gap"></div>
+            </div>
+        </section>
+
+        <section id="blog" class="white">
+            <div class="container">
+                <div class="center gap fade-down section-heading">
+                    <div class="gap"></div>
+                    <h2 class="main-title">From The Past</h2>
+                    <hr>
+                    <p>The golden and glittery wall of memories.</p>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="post">
+                            <div class="post-img-content">
+                                <img src="images/portfolio/team01 (1).jpg" class="img-responsive" />
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="post-title">Orientation</h2>
+                                <div class="author">
+                                    <i class="fa fa-bookmark"></i> <time datetime="2014-01-20">September 16th,
+                                        2019</time>
+                                </div>
+                                <div>
+                                    One of the most awaited event,that is, Orientation of RUMINATE,E-Cell
+                                    of IIIT Surat was organised. Journey of how this cell was formed, the main idea
+                                    behind the E-Cell and the vision, that is, to support future start-ups by
+                                    connecting them with the resources that they need,was presented before the audience.
+                                </div>
+                                <div class="read-more-wrapper">
+                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post">
+                            <div class="post-img-content">
+                                <img src="images/portfolio/team02.jpg" class="img-responsive" />
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="post-title">Director's Session</h2>
+                                <div class="author">
+                                    <i class="fa fa-bookmark"></i> <time datetime="2014-01-20">September 16th,
+                                        2019</time>
+                                </div>
+                                <div>
+                                    Prof. J.S. Bhatt, Director of IIIT Surat was invited to the orientation event of
+                                    RUMINATE. He talked on how entrepreneurs and start-ups are changing and impacting
+                                    the world. He also encouraged students to think of new ideas which could benefit the
+                                    society.He also shared his past experience.
+                                </div>
+                                <div class="read-more-wrapper">
+                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post">
+                            <div class="post-img-content">
+                                <img src="images/portfolio/Movies.jpeg" class="img-responsive" />
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="post-title">Movie Screening</h2>
+                                <div class="author">
+                                    <i class="fa fa-bookmark"></i> <time datetime="2014-01-20">November 9th, 2019</time>
+                                </div>
+                                <div>
+                                    A movie screening was organised for students which witnessed a strength 100+
+                                    budding entrepreneurs. The movie featured Steve Jobs,one of the
+                                    most creative and iconic entrepreneur this world has ever seen. The movie inspired students to think 
+                                    creatively and also instilled a leadership sense in them.
+                                </div>
+                                <div class="read-more-wrapper">
+                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="post">
+                            <div class="post-img-content">
+                                <img src="images/portfolio/GD.jpeg" class="img-responsive" />
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="post-title">Group discussion</h2>
+                                <div class="author">
+                                    <i class="fa fa-bookmark"></i> <time datetime="2014-01-20">November 9th, 2019</time>
+                                </div>
+                                <div>
+                                    Around 100+ students participated in group discussion. Students were divided into
+                                    group and were given the task to come up with an idea that could be helpful to the
+                                    society. This event helped opened their creative side and allowed them to
+                                    ponder over solution to society's problem.
+                                </div>
+                                <div class="read-more-wrapper">
+                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post">
+                            <div class="post-img-content">
+                                <img src="images/portfolio/team03.jpg" class="img-responsive" />
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="post-title">Online Competition</h2>
+                                <div class="author">
+                                    <i class="fa fa-bookmark"></i> <time datetime="2014-01-20">October 22nd, 2019</time>
+                                </div>
+                                <div>
+                                    An online competition was conducted by RUMINATE in which students were asked to
+                                    submit their case studies related to entrepreneurship. The response we got was
+                                    overwhelming as we got around 50+ submissions on different topics.
+                                </div>
+                                <div class="read-more-wrapper">
+                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post">
+                            <div class="post-img-content">
+                                <img src="images/portfolio/team05.jpg" class="img-responsive" />
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="post-title">Interactive Session</h2>
+                                <div class="author">
+                                    <i class="fa fa-bookmark"></i> <time datetime="2014-01-20">January 25th, 2020</time>
+                                </div>
+                                <div>
+                                    Mentorship is one of the most important part of entrepreneurship. The budding
+                                    entrepreneurs were given a direction and guidance by their senior counterparts. This
+                                    session witnessed questions like how to think out of the box, how to generate
+                                    contacts and many more.
+                                </div>
+                                <div class="read-more-wrapper">
+                                    <a href="#" class="btn btn-outlined btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="teams" class="gap"></div>
+                <div class="gap"></div>
+                <div class="center gap fade-down section-heading">
+                    <h2 class="main-title">Meet The Team</h2>
+                    <hr>
+                    <p>Alone we can do so little, together we can do so much.</p>
+                </div>
+                <div class="gap"></div>
+
+                <div id="meet-the-team" class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center team-member">
+                            <div class="team-image">
+                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/nikhil.jpeg"
+                                    alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/nikhil.jpeg"
+                                        rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content fade-up">
+                                <h5>Nikhil Vyas<small class="role muted">Secretary</small></h5>
+                                <p>Electronics and Communication Dept.</p>
+                                <a class="btn btn-social btn-facebook"
+                                    href="https://www.facebook.com/nikhil.vyas.9889"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social btn-google-plus"
+                                    href="https://mail.google.com/mail/u/?authuser=nikhilvyas1998@gmail.com"><i
+                                        class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-instagram"
+                                    href="https://www.instagram.com/nik.vyas_95_/"><i class="fa fa-instagram"></i></a>
+                                <a class="btn btn-social btn-linkedin"
+                                    href="https://www.linkedin.com/in/nikhil-vyas-4a1a81148/"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center team-member">
+                            <div class="team-image">
+                                <img class="img-responsive img-thumbnail bounce-in" src="images/team/yogesh.jpg" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/team/yogesh.jpg"
+                                        rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content fade-up">
+                                <h5>Yogesh Pandey<small class="role muted">Joint Secretary</small></h5>
+                                <p>Computer Science<br /> Dept.</p>
+                                <a class="btn btn-social btn-google-plus"
+                                    href="https://mail.google.com/mail/u/?authuser=yogi.sam72@gmail.com"><i
+                                        class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-linkedin"
+                                    href="https://www.linkedin.com/in/yogesh-pandey-61aa11190"><i
+                                        class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="read-more-wrapper">                    
+                    <button class="btn btn-outlined btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        See whole team
+                    </button>
+                </div>
+                    <!-- First row ends -->
+                    <div class="collapse" id="collapseExample">
+                        <div class="well">
+                            <div id="meet-the-team" class="row">
+                                <div class="col-md-3 col-xs-6">
+                                    <div class="center team-member">
+                                        <div class="team-image">
+                                            <img class="img-responsive img-thumbnail bounce-in"
+                                                src="images/team/aditya.jpeg" alt="">
+                                            <div class="overlay">
+                                                <a class="preview btn btn-outlined btn-primary"
+                                                    href="images/team/aditya.jpeg" rel="prettyPhoto"><i
+                                                        class="fa fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="team-content fade-up">
+                                            <h5>Aditya Aggarwal<small class="role muted">Event Management Head</small></h5>
+                                            <p>Electronics and Communication Dept.</p>
+                                            <a class="btn btn-social btn-facebook"
+                                                href="https://www.facebook.com/profile.php?id=100006279105395"><i
+                                                    class="fa fa-facebook"></i></a> <a
+                                                class="btn btn-social btn-google-plus"
+                                                href="https://mail.google.com/mail/u/?authuser=aggarwaladitya.ai@gmail.com"><i
+                                                    class="fa fa-google-plus"></i></a> <a
+                                                class="btn btn-social btn-linkedin"
+                                                href="http://www.linkedin.com/in/aditya-ai"><i
+                                                    class="fa fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <div class="center team-member">
+                                        <div class="team-image">
+                                            <img class="img-responsive img-thumbnail bounce-in" src="images/team/gupta.jpeg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <a class="preview btn btn-outlined btn-primary"
+                                                    href="images/team/gupta.jpeg" rel="prettyPhoto"><i
+                                                        class="fa fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="team-content fade-up">
+                                            <h5>Pratyush Gupta<small class="role muted">Finance Head</small></h5>
+                                            <p>Electronics and Communication Dept.</p>
+                                            <a class="btn btn-social btn-facebook"
+                                                href="https://m.facebook.com/pratyush.gupta.963"><i
+                                                    class="fa fa-facebook"></i></a> <a
+                                                class="btn btn-social btn-google-plus"
+                                                href="https://mail.google.com/mail/u/?authuser=pratyushgupta190@gmail.com"><i
+                                                    class="fa fa-google-plus"></i></a> <a
+                                                class="btn btn-social btn-linkedin"
+                                                href="https://www.linkedin.com/in/pratyush-gupta-917328192"><i
+                                                    class="fa fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-3 col-xs-6">
+                                    <div class="center team-member">
+                                        <div class="team-image">
+                                            <img class="img-responsive img-thumbnail bounce-in"
+                                                src="images/team/prashant.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="preview btn btn-outlined btn-primary"
+                                                    href="images/team/prashant.jpg" rel="prettyPhoto"><i
+                                                        class="fa fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="team-content fade-up">
+                                            <h5>Prashant Meena<small class="role muted">Operations Head</small></h5>
+                                            <p>Electronics and Communication Dept.</p>
+                                            <a class="btn btn-social btn-facebook"
+                                                href="https://www.facebook.com/prashant.meena160316"><i
+                                                    class="fa fa-facebook"></i></a> <a
+                                                class="btn btn-social btn-google-plus"
+                                                href="https://mail.google.com/mail/u/?authuser=prashantmeenajaipur@gmail.com"><i
+                                                    class="fa fa-google-plus"></i></a> <a
+                                                class="btn btn-social btn-linkedin"
+                                                href="https://www.linkedin.com/in/prashant-meena-622397191"><i
+                                                    class="fa fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <div class="center team-member">
+                                        <div class="team-image">
+                                            <img class="img-responsive img-thumbnail bounce-in" src="images/team/shiv.jpeg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <a class="preview btn btn-outlined btn-primary" href="images/team/shiv.jpeg"
+                                                    rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="team-content fade-up">
+                                            <h5>Shivpoojan Saini<small class="role muted">Marketing Head</small></h5>
+                                            <p>Electronics and Communication Dept.</p>
+                                            <a class="btn btn-social btn-facebook"
+                                                href="https://www.facebook.com/shivpoojan.saini.503"><i
+                                                    class="fa fa-facebook"></i></a> <a
+                                                class="btn btn-social btn-google-plus"
+                                                href="https://mail.google.com/mail/u/?authuser=sainishivpoojan1@gmail.com"><i
+                                                    class="fa fa-google-plus"></i></a> <a
+                                                class="btn btn-social btn-linkedin"
+                                                href="https://www.linkedin.com/in/shivpoojan-saini-288473189/"><i
+                                                    class="fa fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>                                
+    
+                                
+                            </div>
+                            <!-- Second Row ends -->
+
+                    
+                    
+                </div>
+
+                
+
+
+                        <!-- Second row ends -->
+                        <div id="meet-the-team" class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/hksingh.jpeg" alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary" href="images/team/hksingh.jpeg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Himanshu Kumar Singh<small class="role muted">Public Relations and Content
+                                                Head</small></h5>
+                                        <p>Computer Science Dept.</p>
+                                        <a class="btn btn-social btn-facebook"
+                                            href="https://m.facebook.com/himanshukumar.singh.7773?ref=bookmarks"><i class="fa fa-facebook"></i></a>
+                                        <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=himanshu03.gkp@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/himanshu-singh-7708ba176"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/patil.jpeg" alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary" href="images/team/patil.jpeg"
+                                                rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Mansi Patil<small class="role muted">Public Relations</small></h5>
+                                        <p>Computer Science<br /> Dept.</p>
+                                        <a class="btn btn-social btn-facebook" href="https://www.facebook.com/mansi.patil.77"><i
+                                                class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=mansipatil775@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="http://www.linkedin.com/in/mansi-patil-2601"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/shraddha.jpeg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary" href="images/team/shraddha.jpeg"
+                                                rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Shraddha Aggarwal<small class="role muted">Corporate Relations</small></h5>
+                                        <p>Electronics and Communication Dept.</p>
+                                        <a class="btn btn-social btn-facebook" href="https://www.facebook.com/ShraddhaAgg"><i
+                                                class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=nikhilvyas1998@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.facebook.com/ShraddhaAgg"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in"
+                                            src="images/team/boy.svg" alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary"
+                                                href="images/team/boy.svg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Aditya Jaiswal<small class="role muted">Corporate Relations</small></h5>
+                                        <p>Electronics and Communication Dept.</p>
+                                        <a class="btn btn-social btn-facebook"
+                                            href="https://www.facebook.com/nikhil.vyas.9889"><i
+                                                class="fa fa-facebook"></i></a>
+                                        <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=nikhilvyas1998@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a
+                                            class="btn btn-social btn-instagram"
+                                            href="https://www.instagram.com/nik.vyas_95_/"><i
+                                                class="fa fa-instagram"></i></a>
+                                        <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/nikhil-vyas-4a1a81148/"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Third Row ends -->
+                          
+
+                        </div>
+                        <!-- Third Row ends-->
+                        <div id="meet-the-team" class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in"
+                                            src="images/team/hmt.jpeg" alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary"
+                                                href="images/team/hmt.jpeg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Himadri Tanya<small class="role muted">Design Team</small></h5>
+                                        <p>Computer Science<br /> Dept.</p>
+                                        <a class="btn btn-social btn-facebook"
+                                            href="https://www.facebook.com/tanya.h.5011"><i
+                                                class="fa fa-facebook"></i></a>
+                                        <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=himadritanya4@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a>
+                                        <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/himadri-tanya-38aa47186"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/jayesh.jpg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary"
+                                                href="images/team/jayesh.jpg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Jayesh Vishwakarma<small class="role muted">Design Head</small></h5>
+                                        <p>Electronics and Communication Dept.</p>
+                                        <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=jayeshh45@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a
+                                            class="btn btn-social btn-instagram"
+                                            href="https://instagram.com/jayeshh45?igshid=1v25bdxpxrllw"><i
+                                                class="fa fa-instagram"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/jayeshh45"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/boy.svg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary"
+                                                href="images/team/boy.svg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>ChandraHas<small class="role muted">Design Team</small></h5>
+                                        <p>Electronics and Communication Dept.</p>
+                                        <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=jayeshh45@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a
+                                            class="btn btn-social btn-instagram"
+                                            href="https://instagram.com/jayeshh45?igshid=1v25bdxpxrllw"><i
+                                                class="fa fa-instagram"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/jayeshh45"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <!-- Fourth Row ends -->
+                        <div id="meet-the-team" class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/dhruvi.jpg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary"
+                                                href="images/team/dhruvi.jpg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Dhruvi Butti<small class="role muted">Web Team</small></h5>
+                                        <p>Electronics and Communication Dept.</p>
+                                        <a class="btn btn-social btn-github" href="https://github.com/Dhruvi16"><i
+                                                class="fa fa-github"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/dhruvi-butti-bb6196149/"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/dev.jpg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary" href="images/team/dev.jpg"
+                                                rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Devanshu Yadav<small class="role muted">Web Team</small></h5>
+                                        <p>Computer Science<br /> Dept.</p>
+                                        <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=devanshu.yadav1910@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-github"
+                                            href="https://github.com/Blackwatch1910"><i class="fa fa-github"></i></a> <a
+                                            class="btn btn-social btn-instagram"
+                                            href="https://www.instagram.com/i_m_yadavdev/"><i
+                                                class="fa fa-instagram"></i></a>
+                                        <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/devanshu-yadav-9766ba111/"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/boy.svg"
+                                            alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary"
+                                                href="images/team/boy.svg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>RajatVerdhan Sharma<small class="role muted">Web Team</small></h5>
+                                        <p>Computer Science Dept.</p>
+                                        <a class="btn btn-social btn-github" href="https://github.com/Dhruvi16"><i
+                                                class="fa fa-github"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/dhruvi-butti-bb6196149/"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fifth Row ends -->
+                        <div id="meet-the-team" class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="center team-member">
+                                    <div class="team-image">
+                                        <img class="img-responsive img-thumbnail bounce-in" src="images/team/het.jpeg" alt="">
+                                        <div class="overlay">
+                                            <a class="preview btn btn-outlined btn-primary" href="images/team/het.jpeg" rel="prettyPhoto"><i
+                                                    class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="team-content fade-up">
+                                        <h5>Het Shah<small class="role muted">Social Media Head</small></h5>
+                                        <p>Electronics and Communication Dept.</p>
+                                        <a class="btn btn-social btn-facebook" href="https://www.facebook.com/shah.het.92"><i
+                                                class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
+                                            href="https://mail.google.com/mail/u/?authuser=hshah99.a@gmail.com"><i
+                                                class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-linkedin"
+                                            href="https://www.linkedin.com/in/het-shah-a007401a1"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- <section id="contact" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                <div class="center gap fade-down section-heading">
+                    <h2 class="main-title">Get In Touch</h2>
+                    <hr>
+                    <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 fade-up">
+                        <h3>Contact Information</h3>
+                        <p><span class="icon icon-home"></span>Time Square, New York<br />
+                            <span class="icon icon-phone"></span>+36 65984 405<br />
+                            <span class="icon icon-mobile"></span>+36 65984 405<br />
+                            <span class="icon icon-envelop"></span> <a href="#">email@infinityteam.com</a> <br />
+                            <span class="icon icon-twitter"></span> <a href="#">@infinityteam.com</a> <br />
+                            <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br />
+                        </p>
+                    </div><!-- col 
+
+                    <div class="col-md-8 fade-up">
+                        <h3>Drop Us A Message</h3>
+                        <br>
+                        <br>
+                        <div id="message"></div>
+                        <form method="post" action="sendemail.php" id="contactform">
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                            <input type="text" name="email" id="email" placeholder="Email" />
+                            <input type="text" name="website" id="website" placeholder="Website" />
+                            <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
+                        </form>
+                    </div><!-- col -->
+    </div>
+    <!-- row 
+                <div class="gap"></div>
+            </div>
+        </section> -->
+    </div>
+
+    <div id="footer-wrapper">
+        <section id="bottom" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 about-us-widget">
+                        <h4>Find us here</h4>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.700794135861!2d72.78135371478126!3d21.164302385925126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dedbfffffff%3A0xe2683f850017f1be!2sIIIT%20Surat!5e0!3m2!1sen!2sin!4v1581208770863!5m2!1sen!2sin"
+                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>About Us</h4>
+                        <div>
+                            <ul class="arrow">
+                                <li><a href="#about-us">Vision</a></li>
+                                <li><a href="#teams">Meet The Team</a></li>
+                                <li><a href="#portfolio">Achievements</a></li>
+                                <li><a href="#blog">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Follow Us</h4>
+                        <div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img"
+                                        src="https://i0.wp.com/www.oinkandstuff.com/wp-content/uploads/2018/10/instagram-nao-e-facebook.png?fit=586%2C347&ssl=1"
+                                        alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="https://www.facebook.com/ecell.iiits/">Facebook
+                                            <i class="fa fa-facebook"></i></a></span>
+                                    <span class="media-heading"><a
+                                            href="https://www.instagram.com/ecell_iiits/">Instagram</a> <i
+                                            class="fa fa-instagram"></i></span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img"
+                                        src="https://i.ya-webdesign.com/images/linkedin-logo-png-transparent-background-3.png"
+                                        alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="https://www.linkedin.com/in/ruminate/">Linkedin
+                                            <i class="fa fa-linkedin"></i></a></span>
+                                    <small class="muted">Give us a Like!</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Contact Us</h4>
+                        <address>
+                            <strong>Email</strong><br>
+                            nikhilvyas1998@gmail.com
+                        </address>
+                        <address>
+                            <strong>Phone</strong><br />
+                            +91-8423471965
+                        </address>
+                    </div>
+                    <!--/.col-md-3-->
+                </div>
+            </div>
+        </section>
+        <!--/#bottom-->
+
+        <footer id="footer" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        &copy; INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, SURAT.
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="pull-right">
+                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li>
+                            <!--#gototop-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/#footer-->
+    </div>
+
+
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true">
+        </script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
