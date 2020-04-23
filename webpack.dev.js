@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const posthtml = require('posthtml');
+const HtmlWebpackRoutesPlugin = require('html-webpack-routes-plugin');
 
 module.exports = {
 
@@ -9,13 +10,8 @@ module.exports = {
 
   // https://webpack.js.org/concepts/entry-points/#multi-page-application
   entry: {
-    index: './src/index.js',
+    index: './src/index.js'
   },
-
-//   output:{
-//     filename: 'bundle.js',
-//     path: path.resolve(__dirname, 'public/')
-// },
 
   // https://webpack.js.org/configuration/dev-server/
   devServer: {
@@ -84,6 +80,15 @@ module.exports = {
       chunks: ['index'],
       filename: 'index.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/team.html',
+      inject: true,
+      chunks: ['index'],
+      filename: 'team.html'
+    }),
+    new HtmlWebpackRoutesPlugin([
+      '/team'
+    ])
   ],
 
   externals: {
