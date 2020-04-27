@@ -87,6 +87,46 @@ blockquote {
     text-transform: uppercase
 }
 
+@media screen and (max-width: 780px) {
+    #image {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    #image {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #heading {
+       font-size: 3rem;
+       font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    #heading {
+        font-size: 6rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .desktop {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile {
+        display: none !important;
+    }
+}
+
 #main-slider {
     position: relative;
     z-index: 5;
