@@ -87,28 +87,28 @@ blockquote {
     text-transform: uppercase
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
     #image {
         width: 150px;
         height: auto;
     }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
     #image {
         width: 400px;
         height: auto;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
     #heading {
        font-size: 3rem;
        font-weight: bold;
     }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
     #heading {
         font-size: 6rem;
         font-weight: bold;
